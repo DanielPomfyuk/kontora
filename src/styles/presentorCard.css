@@ -1,14 +1,9 @@
-body{
-    margin:0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-}
 .container{
     width: 1000px;
+    margin:0 auto;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
     display: flex;
     position: relative;
     justify-content: space-between;

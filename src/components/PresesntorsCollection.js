@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import PresesntorCard from "./presentorCard"
+import PresesntorCard from "./PresentorCard"
 import presentroData from "../mokData/presentorsData"
 import "../styles/presentorCard.css"
 

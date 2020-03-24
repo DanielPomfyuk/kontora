@@ -1,14 +1,25 @@
 import React from 'react';
-import '../styles/App.css';
-import logo from '../media/logo.svg'
-import PresentorCollection from "./presesntorsCollection"
+import Home from './Home.js'
+import '../styles/App.css'
+import PresentorCollection from "./PresesntorsCollection"
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (<React.Fragment>
-    <div className="imgWrapper">
-      <img src={logo} className="logo"></img>
-    </div>
-    <PresentorCollection />
+    <Router>
+      <Switch>
+        <Route path="/cards">
+          <PresentorCollection />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
   </React.Fragment>)
 }
 export default App;
