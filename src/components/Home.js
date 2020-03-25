@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import "../styles/Home.css"
-export default class Home extends Component {
-    render() {
-        return (<React.Fragment>
-            <div className="header">
-                <div id="bg"></div>
-            </div>
-            <section>
-                <h3>Zalupa</h3>
-                <p>Воу, какой взгляд, харизма, уверенность...
+import useScript from "./useScript"
+const Home = props => {
+    useScript('./script')
+    return (<React.Fragment>
+        <div className="header">
+            <div id="bg"></div>
+        </div>
+        <section>
+            <h3 >aaa</h3>
+            <p>Воу, какой взгляд, харизма, уверенность...
 Тесла что надо, вы ведь тоже подумали о ней?
 Но не только она способна обратить на себя внимание, я успела поработать с Сашей и Валерой, и вот что я заметила⠀
 ️Валера очень долго одевает костюм – поэтому Саша всегда начинает праздник, а Валера ведёт вечерние традиции. Даже на дни рождения...
@@ -17,8 +18,9 @@ export default class Home extends Component {
 ️В дороге Саша всегда эмоционально рассказывает истории  – поэтому Валера всегда за рулем. И да, мы проверяли – нету у Саши родственников из Италии⠀
 ️Саша и Валера работают вместе уже 6 лет – за это время Валера женился и растит сына. А Саша просто молодец
 Валера обожает футбол и яхты. Но со вторым не всё так просто, он хочет назвать её в честь Саши. Ждём когда на воду сойдёт яхта «Малый».</p>
-            </section>
-        </React.Fragment>
-        )
-    }
+        </section>
+        <script src="./script.js"> </script>
+    </React.Fragment>
+    )
 }
+export default Home;
