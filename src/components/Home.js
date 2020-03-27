@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import "../styles/Home.css"
 function Home() {
     let photo = useRef(null)
@@ -10,10 +10,7 @@ function Home() {
         })
     }, [])
     return (<React.Fragment>
-        <div className="zalupka">
-            <h1>Flenyko koza</h1>
-        </div>
-        {/* <div className="header">
+        <div className="header">
             <div ref={el => photo = el} id="bg"></div>
         </div>
         <section>
@@ -43,7 +40,7 @@ function Home() {
     ️В дороге Саша всегда эмоционально рассказывает истории  – поэтому Валера всегда за рулем. И да, мы проверяли – нету у Саши родственников из Италии⠀
     ️Саша и Валера работают вместе уже 6 лет – за это время Валера женился и растит сына. А Саша просто молодец
 Валера обожает футбол и яхты. Но со вторым не всё так просто, он хочет назвать её в честь Саши. Ждём когда на воду сойдёт яхта «Малый».</p>
-        </section> */}
+        </section>
     </React.Fragment >
     )
 }

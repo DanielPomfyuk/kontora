@@ -1,0 +1,17 @@
+nav{
+    height: 10vh;
+    background: black;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+}
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+}

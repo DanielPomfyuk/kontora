@@ -3,7 +3,8 @@ import Home from './Home.js'
 import EventType from "./eventType"
 import '../styles/App.css'
 import PresentorCollection from "./PresesntorsCollection"
-import Reviews from "./reviews"
+import ReviewCollection from "./reviewsCollection"
+import NavbarLink from "./navbarLink.js"
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,9 +13,10 @@ import {
 
 function App() {
   return (<React.Fragment>
+    <NavbarLink />
     <Router>
       <Switch>
-        <Route path="/review"><Reviews /></Route>
+        <Route path="/review"><ReviewCollection /></Route>
         <Route path="/event"><EventType /></Route>
         <Route path="/cards"> <PresentorCollection /></Route>
         <Route path="/">
