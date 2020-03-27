@@ -3,8 +3,8 @@ import "../styles/review.css"
 export default class Reviews extends Component {
     render() {
         return (
-            <div className="container">
-                <div className="card">
+            <div className="reviewContainer">
+                <div className="reviewCard">
                     <div className="imgBox">
                         <img src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89172092_110438310573904_4368216644678320128_n.jpg?_nc_cat=104&_nc_sid=110474&_nc_ohc=N3dyK2--FGgAX8cTM3l&_nc_ht=scontent-lhr8-1.xx&oh=09b25cbef68b00a597383bd847a56a94&oe=5EA45B2A"></img>
                     </div>
@@ -14,7 +14,7 @@ export default class Reviews extends Component {
 Каждую субботу одна из них, в порядке взросления, становилась под алтарь из старых маминых штор, пока я стояла на страже порядка и командовала своевременной подачей печенья!</p>
                     </div>
                 </div>
-                <div className="card">
+                <div className="reviewCard">
                     <div className="imgBox">
                         <img src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89172092_110438310573904_4368216644678320128_n.jpg?_nc_cat=104&_nc_sid=110474&_nc_ohc=N3dyK2--FGgAX8cTM3l&_nc_ht=scontent-lhr8-1.xx&oh=09b25cbef68b00a597383bd847a56a94&oe=5EA45B2A"></img>
                     </div>
@@ -24,7 +24,7 @@ export default class Reviews extends Component {
 Каждую субботу одна из них, в порядке взросления, становилась под алтарь из старых маминых штор, пока я стояла на страже порядка и командовала своевременной подачей печенья!</p>
                     </div>
                 </div>
-                <div className="card">
+                <div className="reviewCard">
                     <div className="imgBox">
                         <img src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89172092_110438310573904_4368216644678320128_n.jpg?_nc_cat=104&_nc_sid=110474&_nc_ohc=N3dyK2--FGgAX8cTM3l&_nc_ht=scontent-lhr8-1.xx&oh=09b25cbef68b00a597383bd847a56a94&oe=5EA45B2A"></img>
                     </div>
@@ -34,7 +34,7 @@ export default class Reviews extends Component {
 Каждую субботу одна из них, в порядке взросления, становилась под алтарь из старых маминых штор, пока я стояла на страже порядка и командовала своевременной подачей печенья!</p>
                     </div>
                 </div>
-                <div className="card">
+                <div className="reviewCard">
                     <div className="imgBox">
                         <img src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89172092_110438310573904_4368216644678320128_n.jpg?_nc_cat=104&_nc_sid=110474&_nc_ohc=N3dyK2--FGgAX8cTM3l&_nc_ht=scontent-lhr8-1.xx&oh=09b25cbef68b00a597383bd847a56a94&oe=5EA45B2A"></img>
                     </div>
@@ -44,7 +44,7 @@ export default class Reviews extends Component {
 Каждую субботу одна из них, в порядке взросления, становилась под алтарь из старых маминых штор, пока я стояла на страже порядка и командовала своевременной подачей печенья!</p>
                     </div>
                 </div>
-                <div className="card">
+                <div className="reviewCard">
                     <div className="imgBox">
                         <img src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89172092_110438310573904_4368216644678320128_n.jpg?_nc_cat=104&_nc_sid=110474&_nc_ohc=N3dyK2--FGgAX8cTM3l&_nc_ht=scontent-lhr8-1.xx&oh=09b25cbef68b00a597383bd847a56a94&oe=5EA45B2A"></img>
                     </div>
@@ -54,7 +54,7 @@ export default class Reviews extends Component {
 Каждую субботу одна из них, в порядке взросления, становилась под алтарь из старых маминых штор, пока я стояла на страже порядка и командовала своевременной подачей печенья!</p>
                     </div>
                 </div>
-                <div className="card">
+                <div className="reviewCard">
                     <div className="imgBox">
                         <img src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89172092_110438310573904_4368216644678320128_n.jpg?_nc_cat=104&_nc_sid=110474&_nc_ohc=N3dyK2--FGgAX8cTM3l&_nc_ht=scontent-lhr8-1.xx&oh=09b25cbef68b00a597383bd847a56a94&oe=5EA45B2A"></img>
                     </div>

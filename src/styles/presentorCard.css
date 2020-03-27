@@ -1,4 +1,4 @@
-.container{
+.presesntorContainer{
     width: 1000px;
     margin:0 auto;
     min-height: 100vh;
@@ -8,16 +8,16 @@
     position: relative;
     justify-content: space-between;
 }
-.card{
+.presentorCard{
     position: relative;
 }
- .card .face{
+ .presentorCard .face{
     width: 300px;
     height: 200px;
     transition: 0.5s;
     overflow: hidden;
 }
- .card .face.face1{
+ .presentorCard .face.face1{
     position: relative;
     display: flex;
     justify-content: center;
@@ -26,27 +26,27 @@
     z-index: 1;
     transform: translateY(100px);
 }
- .card:hover .face.face1{
+ .presentorCard:hover .face.face1{
     transform: translateY(0);
 }
- .card .face.face1 .content{
+ .presentorCard .face.face1 .content{
     opacity: 0.2;
     transition: 0.5s;
 }
- .card .face.face1 .content .name{
+ .presentorCard .face.face1 .content .name{
     position: absolute;
     bottom: 8px;
     right: 20px;
     color: #fff;
     text-align: center;
 }
- .card .face.face1 .content img{
+ .presentorCard .face.face1 .content img{
     width: 100%;
 }
- .card:hover .face.face1 .content{
+ .presentorCard:hover .face.face1 .content{
     opacity: 1;
 }
- .card .face.face2{
+ .presentorCard .face.face2{
     position: relative;
     display: flex;
     justify-content: center;
@@ -57,10 +57,10 @@
     box-sizing: border-box;
     box-shadow: 0 20px 50px rgba(0,0,0,0.8);
 }
- .card:hover .face.face2{
+ .presentorCard:hover .face.face2{
    transform: translateY(0)
 }
- .card .face.face2 .content p{
+ .presentorCard .face.face2 .content p{
    margin: 0;
    padding: 0;
 }

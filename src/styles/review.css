@@ -1,4 +1,4 @@
-.container{
+.reviewContainer{
     max-width: 2000px;
     margin: 0 auto;
     display: flex;
@@ -6,7 +6,7 @@
     justify-content: space-around;
     background: #fff;
 }
-.card{
+.reviewCard{
     position: relative;
     margin: 20px 0;
     width: 300px;
@@ -17,12 +17,12 @@
     transition:1s;
     box-shadow: inset 300px 0 50px rgba(0,0,0,.5)
 }
-.card:hover{
+.reviewCard:hover{
     transform: perspective(2000px) rotate(-10deg);
      box-shadow: inset 20px 0 50px rgba(0,0,0,.5);
      z-index: 1000;
 }
-.card .imgBox{
+.reviewCard .imgBox{
     position: relative;
     width:100%;
     height: 100%;
@@ -33,7 +33,7 @@
     transition: 1s;
     overflow: hidden;
 }
-.card .imgBox img{
+.reviewCard .imgBox img{
     position: absolute;
     top: 0;
     left: 0;
@@ -41,10 +41,10 @@
     height: 100%;
     object-fit: cover;
 }
-.card:hover .imgBox{
+.reviewCard:hover .imgBox{
     transform: rotateY(-135deg)
 }
-.card .details{
+.reviewCard .details{
     position:absolute;
     top:0;
     left:0;

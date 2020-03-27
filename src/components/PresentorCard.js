@@ -3,7 +3,7 @@ import "../styles/presentorCard.css"
 
 export default function presentorCard(props) {
     return (
-        <div className="card">
+        <div className="presentorCard">
             <div className="face face1">
                 <div className="content">
                     <img src={props.photo}></img>

@@ -1,0 +1,36 @@
+.eventContainer{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #383838;
+}
+.eventCard{
+    position: relative;
+    background: #fff;
+    width: 400px;
+    height: 500px;
+    margin:0 auto;
+}
+.eventCard .content{
+    width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.eventCard .sliderText{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+.eventCard .sliderText h3{
+    font-size: 3em;
+    color: #fff;
+}
+
+

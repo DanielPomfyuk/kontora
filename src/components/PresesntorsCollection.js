@@ -13,7 +13,7 @@ export default class presesntorsCollection extends Component {
     render() {
         const dataComponents = this.state.data.map(presentor => <PresesntorCard {...presentor} />)
         return (
-            <div className="container">
+            <div className="presesntorContainer">
                 {dataComponents}
             </div>
         )
