@@ -13,13 +13,13 @@ import {
 
 function App() {
   return (<React.Fragment>
-    <NavbarLink />
     <Router>
+      <NavbarLink />
       <Switch>
         <Route path="/review"><ReviewCollection /></Route>
         <Route path="/event"><EventType /></Route>
         <Route path="/cards"> <PresentorCollection /></Route>
-        <Route path="/">
+        <Route exact path="/">
           <Home />
         </Route>
       </Switch>
