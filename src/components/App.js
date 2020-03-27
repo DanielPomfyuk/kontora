@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './Home.js'
 import '../styles/App.css'
 import PresentorCollection from "./PresesntorsCollection"
+import Reviews from "./reviews"
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,9 +13,8 @@ function App() {
   return (<React.Fragment>
     <Router>
       <Switch>
-        <Route path="/cards">
-          <PresentorCollection />
-        </Route>
+        <Route path="/review"><Reviews /></Route>
+        <Route path="/cards"> <PresentorCollection /></Route>
         <Route path="/">
           <Home />
         </Route>

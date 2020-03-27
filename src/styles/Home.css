@@ -23,12 +23,13 @@
 section{
     padding: 100px;
     color: white;
+    background: black;
 }
 section h3{
-    font-size: 3em;
+    font-size: 5em;
 }
 section p{
-    font-size: 1.2em;
+    font-size: 2em;
 }
 /* .zalupka{
     width: 100%;
