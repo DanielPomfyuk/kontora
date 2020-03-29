@@ -1,30 +1,49 @@
-.navbar{
-    width: 100%;
-    height: 7vh;
-    background: black;
-}
-.navLinks{
-    display: flex;
-    width: 30%;
-    height: 100%;
-    justify-content: space-around;
-    align-items: center;
-    text-decoration: none;
-    
-}
-.navLinks li{
-    height: 100%;
-    text-align: center;
-    vertical-align: center;
-    list-style: none;
-}
-.navLinks li:hover{
-    color: black;
-    background: white;
-}
-.link{
-    text-decoration: none;
-    font-weight: 600;
+.menu-icon{
     color: white;
-     height: 100%;
+    position: absolute;
+    font-size: 30px;
+    left: 42px;
+    top:24px;
+    cursor: pointer;
+    z-index: 1;
+}
+.menu-container{
+    height: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, .8);
+    overflow: hidden;
+    transition: .5s ease-in-out;
+}
+.menu-content{
+    position: relative;
+    top: 25%;
+    width: 20%;
+    text-align: center;
+    margin:0 auto;
+}
+.menu-content .link{
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 30px;
+    display: block;
+    text-transform: uppercase;
+}
+.menu-content .link:hover{
+    transform: scale(1.5);
+    color: black;
+    background: rgba(255, 255, 255, 1)
+}
+.menu-container .closeBtn{
+    color: white;
+    z-index: 1;
+    position: absolute;
+    top:36px;
+    right: 48px;
+    font-size: 30px;
+    cursor: pointer;
 }
