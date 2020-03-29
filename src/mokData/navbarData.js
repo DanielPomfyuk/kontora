@@ -1,14 +1,14 @@
 export default [
     {
         name: "Reviews",
-        link: "/review"
+        path: "/review"
     },
     {
         name: "Presenters",
-        link: "/cards"
+        path: "/presenters"
     },
     {
         name: "Contact us",
-        link: "/"
+        path: "/"
     },
 ]

@@ -4,7 +4,7 @@ import EventType from "./eventType"
 import '../styles/App.css'
 import PresentorCollection from "./PresesntorsCollection"
 import ReviewCollection from "./reviewsCollection"
-import NavbarLink from "./navbarLink.js"
+import Navbar from "./navbar"
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,14 +14,12 @@ import {
 function App() {
   return (<React.Fragment>
     <Router>
-      <NavbarLink />
+      <Navbar />
       <Switch>
         <Route path="/review"><ReviewCollection /></Route>
         <Route path="/event"><EventType /></Route>
-        <Route path="/cards"> <PresentorCollection /></Route>
-        <Route exact path="/">
-          <Home />
-        </Route>
+        <Route path="/presenters"> <PresentorCollection /></Route>
+        <Route exact path="/"><Home /></Route>
       </Switch>
     </Router>
   </React.Fragment>)
