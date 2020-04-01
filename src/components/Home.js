@@ -9,18 +9,39 @@ function Home() {
             photo.style.backgroundPositionY = -+window.pageYOffset / 2 + 'px';
         })
     }, [])
-    const pic = "https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s750x750/91587380_569561390580791_6527230681733531975_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=111&_nc_ohc=lj6uAVktbHEAX9LOj5A&oh=74115e6f2d751c1d85b2af0a4f12cdec&oe=5EAB4A15"
-    const text = "Я спокойно отношу себя к тем людям, в жилах которых течёт эспрессо. А ещё я очень люблю готовить. И говорить по-утиному. Не спрашивайте.   ⠀Говорят, диджеи не любят, когда к ним подходят заказать песню.Чушь! Надо уметь это правильно делать – в моём случае, с кусочком лимонного пирога И напоследок у меня к вам просьба – танцуйте! С собакой, в платье и даже после первого тоста.Музыку беру на себя "
+    const firstText = "В дороге Саша всегда эмоционально рассказывает истории – поэтому Валера всегда за рулем. И да, мы проверяли – нету у Саши родственников из Италии.️Саша и Валера работают вместе уже 6 лет – за это время Валера женился и растит сына.А Саша просто молодец.Валера обожает футбол и яхты.Но со вторым не всё так просто, он хочет назвать её в честь Саши.Ждём когда на воду сойдёт яхта «Малый»."
+    const secondText = "Сегодня эта фотография с нашего альбома, которая стоит в серванте галереи айфона, напоминает одно. Во время всеобщей паники нужно успокоится, выпить чашечку кофе и подумать, что ты будешь делать дальше, когда паника закончится?Мы уже знаем.Ты захочешь веселиться, а мы такие, бац, и тут как тут!Только перед этим не забудь позвонить нашей Ире и забронировать нас, номер ты знаешь"
     return (<React.Fragment>
         <div className="header">
             <div ref={el => photo = el} id="bg"></div>
         </div>
-        <div className="homeContainer">
-            <div className="post">
-                <img src={pic} alt="25cm"></img>
-                <p>{text}</p>
+        <section className="about">
+            <div className="contentBx">
+                <h2 className="heading">Немного о нас</h2>
+                <p className="text">{firstText}<br /><br />{secondText}<br /><br />{firstText}</p>
             </div>
-        </div>
+            <div className="imgBx">
+
+            </div>
+        </section>
+        <section className="services">
+            <h2 className="heading">Наши услуги</h2>
+            <p className="text">{secondText}</p>
+            <div className="serviceContainer">
+                <div className="serviceBx">
+                    <img src="https://www.davidtett.com/img/s/v-10/p2538187287-3.jpg"></img>
+                    <h2>Свадьба</h2>
+                </div>
+                <div className="serviceBx">
+                    <img className="secondImg" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/this-official-handout-christening-photograph-released-by-news-photo-1568545126.jpg"></img>
+                    <h2>Крестины</h2>
+                </div>
+                <div className="serviceBx">
+                    <img className="thirdImg" src="https://c.stocksy.com/a/gnF500/z9/1252380.jpg?1578560334"></img>
+                    <h2>Корпоратив</h2>
+                </div>
+            </div>
+        </section>
     </React.Fragment >
     )
 }

@@ -1,10 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-
-}
 .header{
     position: relative;
     width: 100%;
@@ -18,7 +11,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background:url(../media/fon.jpeg);
+    background:url(../media/fon.jpeg) ;
     background-size: 100%;
 }
 .homeContainer{
@@ -46,34 +39,85 @@
     width: 50%;
     float: left;
 }
-/* .zalupka{
+.about{
     width: 100%;
-    height: 100vh;
-    color: #fff;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e,#23a6d5,#23d5ab);
-    background-size: 400% 400%;
     position: relative;
-    animation: change 7s ease-in-out infinite;
+    display: flex;
 }
-.zalupka h1{
+.about .contentBx{
+    background: white;
+    color: black;
+    width: 50%;
+    padding: 100px;
+}
+.heading{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.about .text{
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.about .imgBx{
+    background: url("https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s750x750/88198413_1138758413183053_6300898270525546636_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=101&_nc_ohc=iWAxh3AGlqsAX983vWd&oh=37365d79c2a49f56e108aded14871746&oe=5EAF8C50");
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.services{
+    background: #000000;
+    padding: 100px;
+    text-align: center;
+}
+.services .heading{
+    color: white;
+}
+.serviceContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.serviceContainer .serviceBx{
+    position: relative;
+    background: white;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.services .text{
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: white;
+}
+.serviceBx:hover h2{
+    color: white;
+    z-index: 1;
+    position: absolute; 
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+.serviceBx img{
     position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    letter-spacing: 2px;
-    font-size: 3em;
-    border: 3px solid #fff;
-    padding: 3rem 3rem;
+    transition: 0.5s ease;
 }
-@keyframes change{
-0%{
-    background-position: 0 50%;
+.serviceBx .secondImg{
+    width: 160%;
 }
-50%{
-    background-position: 100% 50%;
-
+.serviceBx .thirdImg{
+    width: 100%;
 }
-100%{
-    background-position: 0 50%;
+.serviceBx:hover img{
+    webkit-filter: blur(4px);
+    filter: blur(4px);
 }
-} */
