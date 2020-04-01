@@ -14,10 +14,10 @@ export default class Navbar extends Component {
         this.openMenu = this.openMenu.bind(this);
     }
     openMenu() {
-        this.state.navbar.current.style.height = "100%";
+        this.state.navbar.current.style.width = "20%";
     }
     closeMenu() {
-        this.state.navbar.current.style.height = "0";
+        this.state.navbar.current.style.width = "0";
     }
     render() {
         const linksCollection = this.state.links.map(link => <NavbarLink {...link} navbar={this.state.navbar} />)

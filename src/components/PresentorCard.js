@@ -6,7 +6,7 @@ export default function presentorCard(props) {
         <div className="presentorCard">
             <div className="face face1">
                 <div className="content">
-                    <img src={props.photo}></img>
+                    <img src={props.photo} alt={props.name}></img>
                     <div className="name">{props.name}</div>
                 </div>
             </div>

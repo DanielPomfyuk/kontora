@@ -1,14 +1,17 @@
 export default [
     {
         name: "Reviews",
-        path: "/review"
+        path: "/review",
+        icon: "faCommentDots"
     },
     {
         name: "Presenters",
-        path: "/presenters"
+        path: "/presenters",
+        icon: "faSmileWink"
     },
     {
         name: "Contact us",
-        path: "/"
+        path: "/",
+        icon: "faHandshake"
     },
 ]
