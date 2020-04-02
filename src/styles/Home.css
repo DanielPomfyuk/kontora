@@ -14,37 +14,13 @@
     background:url(../media/fon.jpeg) ;
     background-size: 100%;
 }
-.homeContainer{
-    background: black;
-    padding: 50px;
-    width: 100%;
-    height: 100vh;
-}
-.post{
-    background: white;
-    width: 50%;
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-}
-.post p{
-    color: black;
-    position: absolute;
-    top:20px;
-    right: 20px;
-    width:45%;
-    font-style:  italic;
-}
-.post img{
-    width: 50%;
-    float: left;
-}
-.about{
+
+.about,.testimonials{
     width: 100%;
     position: relative;
     display: flex;
 }
-.about .contentBx{
+.about .contentBx,.testimonials .contentBx{
     background: white;
     color: black;
     width: 50%;
@@ -56,16 +32,22 @@
     margin-bottom: 10px;
     letter-spacing: 1px;
 }
-.about .text{
+.about .text, .testimonials text{
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 1px;
 }
-.about .imgBx{
-    background: url("https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s750x750/88198413_1138758413183053_6300898270525546636_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=101&_nc_ohc=iWAxh3AGlqsAX983vWd&oh=37365d79c2a49f56e108aded14871746&oe=5EAF8C50");
+.about .imgBx,.testimonials .imgBx{
     width: 50%;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
+}
+.about .imgBx{
+    background: url("https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s750x750/88198413_1138758413183053_6300898270525546636_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=101&_nc_ohc=iWAxh3AGlqsAX983vWd&oh=37365d79c2a49f56e108aded14871746&oe=5EAF8C50") no-repeat;
+}
+.testimonials .imgBx{
+    
+    background: url("https://scontent-lht6-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/91504236_550060075641335_7613391829890924121_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com&_nc_cat=111&_nc_ohc=BOldfyhPeeoAX9533cT&oh=7bd48ad5b2c8910f0a4edc751c257480&oe=5EAE264B")
 }
 .services{
     background: #000000;
@@ -85,7 +67,7 @@
 }
 .serviceContainer .serviceBx{
     position: relative;
-    background: white;
+    background: black;
     width: 350px;
     height: 400px;
     display: flex;
@@ -110,6 +92,7 @@
 .serviceBx img{
     position: absolute;
     transition: 0.5s ease;
+    opacity: 0.6;
 }
 .serviceBx .secondImg{
     width: 160%;
@@ -121,3 +104,4 @@
     webkit-filter: blur(4px);
     filter: blur(4px);
 }
+

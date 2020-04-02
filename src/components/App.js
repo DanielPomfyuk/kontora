@@ -16,10 +16,10 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
+        <Route exact path="/"><Home /></Route>
         <Route path="/review"><ReviewCollection /></Route>
         <Route path="/event"><EventType /></Route>
         <Route path="/presenters"> <PresentorCollection /></Route>
-        <Route exact path="/"><Home /></Route>
       </Switch>
     </Router>
   </React.Fragment>)
