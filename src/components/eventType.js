@@ -1,35 +1,31 @@
 import React, { Component } from 'react'
 import "../styles/eventType.css"
+import logo from "../media/logo.svg";
 export default class EventType extends Component {
     render() {
         return (<React.Fragment>
-            <nav class="TheList" id="TheList">
-                <div class="TheList__Wrapper">
-                    <ul class="TheList__List" id="TheList__List">
+            <div className="bg1"></div>
+            <div className="menuContainer">
+                <div className="logo">
+                    <img src={logo}></img>
+                </div>
+                <div className="rightSide">
+                    <ul>
                         <li>
-                            <a href="#" data-color="#b5a9a1">
-                                <span class="TheList__Title">О нас</span>
-                            </a>
+                            <img src="https://logos-download.com/wp-content/uploads/2018/03/Batman_logo_black.svg"></img>
+                            <strong>Zalupka</strong>
                         </li>
                         <li>
-                            <a href="#" data-color="#0aeac0">
-                                <span class="TheList__Title">Команда</span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" data-color="#01622C">
-                                <span class="TheList__Title">Заказать</span>
-                            </a>
+                            <img src="https://logos-download.com/wp-content/uploads/2018/03/Batman_logo_black.svg"></img>
+                            <strong>Zalupka</strong>
                         </li>
                         <li>
-                            <a href="#" data-color="#1d1d1d">
-                                <span class="TheList__Title">Отзывы</span>
-                            </a>
+                            <img src="https://logos-download.com/wp-content/uploads/2018/03/Batman_logo_black.svg"></img>
+                            <strong>Zalupka</strong>
                         </li>
                     </ul>
                 </div>
-            </nav>
+            </div>
         </React.Fragment >)
     }
 }

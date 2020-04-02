@@ -1,66 +1,48 @@
-.TheList{
-    width:100%;
-    position:relative;
-    perspective-origin:50% 50%;
-    perspective: 50vw;
-    top:0;
-    left:0;
-    overflow-y:scroll;
-    background: url("../media/fon.jpeg");
+
+.bg1,.bg2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
-.TheList__Wrapper{
-    position:relative;
-    width:100%;
-    transform-style:preserve-3d;
-    padding-right:5vw;
-    padding-top:10vw;
-    padding-bottom:20vw;
-    box-sizing:border-box;
-}
-.TheList__List{
-    display:flex;
-    align-items:flex-end;
-    flex-direction:column;
-    margin:0;
-    padding:0;
-    transform-style:preserve-3d;
-    list-style-type:none}
-.TheList li{
-    padding-top:50px;
-    margin:0;
-    transition:transform 1.5s cubic-bezier(.075,.82,.165,1);
-    transform-origin:right center;
-    transform-style:preserve-3d;
-    transform:rotateY(-45deg) translateZ(0) scale(1)
-}
-.TheList a{
-    text-align:right;
-    text-decoration:none;
-    position:relative;
-    display:block
-}
-.TheList li:hover{
-    transform:rotateY(-35deg) translateZ(0) scale(1);
-    transition-duration:1s
-}
-.TheList .TheList__Title{
-    letter-spacing:.5vw;
-    font-family: 'Open Sans', sans-serif;
-    line-height:10vw;
-    transition:.3s color ease;
-    padding-left:3vw;
-    margin-left:2vw;
-    position:relative;
-    font-size:12vw;
-    font-weight:900;
-    color:white;
-    text-transform:uppercase;
-    -webkit-text-stroke:.2vw white
+.bg1{
+   -webkit-clip-path: circle(85.2% at 100% 91%);
+clip-path: circle(85.2% at 100% 91%);
+    z-index: -1;
+    background-color: black;
 }
 
-.TheList a:hover .TheList__Title{
-        color:transparent
+.menuContainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
-.TheList a:hover .TheList__Title::before{
-    transform:skewX(-15deg) translate3d(0,-20vw,0)
+.menuContainer .logo{
+    position: absolute;
+    top:200px;
+    left: 30px;
+    width: 600px;
+}
+.menuContainer .rightSide{
+    position: absolute;
+    top:300px;
+    right: 200px;
+    color: white;
+    width: 300px;
+    display: flex;
+    
+}
+.menuContainer .rightSide ul{
+    list-style-type: none;
+    padding: 20px;
+}
+.menuContainer .rightSide li{
+    margin: 10px;
+}
+.menuContainer .rightSide img{
+    width:50px;
+}
+.menuContainer .rightSide strong{
+    padding: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
 }
