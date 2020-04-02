@@ -11,7 +11,12 @@ export default [
     },
     {
         name: "Contact us",
-        path: "/",
+        path: "/home",
         icon: "faHandshake"
     },
+    {
+        name: "Zalupa",
+        path: "/",
+        icon: "faHandshake"
+    }
 ]

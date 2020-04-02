@@ -1,61 +1,35 @@
 import React, { Component } from 'react'
 import "../styles/eventType.css"
 export default class EventType extends Component {
-    componentDidMount() {
-
-    }
     render() {
-        return (<div></div>
-            // <div className="eventContainer">
-            //     <div className="eventCard">
-            //         <div className="sliderText">
-            //             <h3>Slide One</h3>
-            //         </div>
-            //         <div className="content">
-            //             <p>Bringing unlocked me an striking ye perceive. Mr by wound hours oh happy. Me in resolution pianoforte continuing we. Most my no spot felt by no. He he in forfeited furniture sweetness he arranging. </p>
-            //         </div>
-            //     </div>
-            //     <div className="eventCard">
-            //         <div className="sliderText">
-            //             <h3>Slide One</h3>
-            //         </div>
-            //         <div className="content">
-            //             <p>Bringing unlocked me an striking ye perceive. Mr by wound hours oh happy. Me in resolution pianoforte continuing we. Most my no spot felt by no. He he in forfeited furniture sweetness he arranging. </p>
-            //         </div>
-            //     </div>
-            //     <div className="eventCard">
-            //         <div className="sliderText">
-            //             <h3>Slide One</h3>
-            //         </div>
-            //         <div className="content">
-            //             <p>Bringing unlocked me an striking ye perceive. Mr by wound hours oh happy. Me in resolution pianoforte continuing we. Most my no spot felt by no. He he in forfeited furniture sweetness he arranging. </p>
-            //         </div>
-            //     </div>
-            //     <div className="eventCard">
-            //         <div className="sliderText">
-            //             <h3>Slide One</h3>
-            //         </div>
-            //         <div className="content">
-            //             <p>Bringing unlocked me an striking ye perceive. Mr by wound hours oh happy. Me in resolution pianoforte continuing we. Most my no spot felt by no. He he in forfeited furniture sweetness he arranging. </p>
-            //         </div>
-            //     </div>
-            //     <div className="eventCard">
-            //         <div className="sliderText">
-            //             <h3>Slide One</h3>
-            //         </div>
-            //         <div className="content">
-            //             <p>Bringing unlocked me an striking ye perceive. Mr by wound hours oh happy. Me in resolution pianoforte continuing we. Most my no spot felt by no. He he in forfeited furniture sweetness he arranging. </p>
-            //         </div>
-            //     </div>
-            //     <div className="eventCard">
-            //         <div className="sliderText">
-            //             <h3>Slide One</h3>
-            //         </div>
-            //         <div className="content">
-            //             <p>Bringing unlocked me an striking ye perceive. Mr by wound hours oh happy. Me in resolution pianoforte continuing we. Most my no spot felt by no. He he in forfeited furniture sweetness he arranging. </p>
-            //         </div>
-            //     </div>
-            // </div>
-        )
+        return (<React.Fragment>
+            <nav class="TheList" id="TheList">
+                <div class="TheList__Wrapper">
+                    <ul class="TheList__List" id="TheList__List">
+                        <li>
+                            <a href="#" data-color="#b5a9a1">
+                                <span class="TheList__Title">О нас</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-color="#0aeac0">
+                                <span class="TheList__Title">Команда</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" data-color="#01622C">
+                                <span class="TheList__Title">Заказать</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-color="#1d1d1d">
+                                <span class="TheList__Title">Отзывы</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </React.Fragment >)
     }
 }
